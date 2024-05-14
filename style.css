@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(245, 198, 206);
+}
+#focusButton{
+    font-family: Helvetica;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 17px;
+    border: rgb(216, 213, 215);
+    background-color: rgb(242, 133, 133);
+}
+#focusButton:hover{
+    background-color: rgb(247, 98, 115);
+}
