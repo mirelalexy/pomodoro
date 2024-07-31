@@ -14,8 +14,9 @@ body{
 
 h1{
     color: #C8ACD6;
-    font-size: 4.5rem;
-    margin-bottom: 100px;
+    font-size: 3.25rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 h1:hover{
@@ -35,13 +36,13 @@ h1:hover{
 .pomodoro-timer{
     color: #C8ACD6;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 3.25rem;
     position: relative;
 }
 
 .outer{
-    width: 340px;
-    height: 340px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 1px solid #433D8B;
     position: relative;
@@ -51,37 +52,31 @@ h1:hover{
 }
 
 .inner{
-    width: 275px;
-    height: 275px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     border: 1px solid #433D8B;
     position: relative;
-    bottom: 310px;
-    left: 32px;
+    bottom: 223px;
+    left: 29px;
 }
 
-/*.progress-circle{
-    height: 65px;
-    background-color: #433D8B;
-    width: 200px;
-    position: relative;
-}*/
-
 .progress-widget{
-    height: 410px;
+    height: 251px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .control-buttons{
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: #C8ACD6;
     display: flex;
     align-items: center;
 }
 
 .timer-control{
-    font-size: 2.5rem;
-    width: 190px;
+    font-size: 1.7rem;
+    width: 120px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: #DBD2AF;
